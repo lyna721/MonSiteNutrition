@@ -1,0 +1,153 @@
+
+/* Fond général */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+}
+
+/* Container app */
+.app {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Header */
+header {
+    background: white;
+    padding: 15px;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+/* Menu */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 5px;
+    color: #27ae60;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Sections style carte */
+.section, .hero {
+    background: white;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Image accueil */
+.home-horizontal img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Caption */
+.caption {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #555;
+}
+
+/* Inputs */
+input {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: none;
+    background: #f2f2f2;
+}
+
+/* Boutons */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #2ecc71;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #27ae60;
+}
+
+/* Conseils */
+.conseil {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+
+/* Recettes */
+.recette-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.recette-card {
+    flex: 1 1 45%;
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.recette-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* WhatsApp bouton */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+    font-size: 12px;
+}
+.slider {
+    position: relative;
+    margin-top: 10px;
+}
+
+.slides {
+    display: none;
+}
+
+.slides img {
+    width: 100%;
+    border-radius: 15px;
+}
